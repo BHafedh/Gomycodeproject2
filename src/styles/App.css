@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+* {
+  font-family: Montserrat;
+}
+
+body {
+  margin: 0;
+}
+
+.loading {
+  color: white;
+}
+
+.error {
+  color: red;
+}
+
+.siteHeader {
+  height: 120px;
+  background-color:#F8333C;
+  background-image: linear-gradient(to bottom right, #33f8ad, #FCAB10);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.siteTitle {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  padding-top: 10px;
+}
